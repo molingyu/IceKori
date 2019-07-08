@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Assets.Plugins.IceKori.Common;
 using Assets.Plugins.IceKori.Syntax.BaseType;
 using Assets.Plugins.IceKori.Syntax.Error;
@@ -7,6 +7,7 @@ using UnityEngine;
 
 namespace Assets.Plugins.IceKori.Syntax.Std.Math
 {
+    [PageSlider, Serializable]
     public class Max : BaseExpression
     {
         public BaseExpression A;

@@ -1,10 +1,13 @@
-﻿using Assets.Plugins.IceKori.Syntax.BaseType;
+﻿using System;
+using Assets.Plugins.IceKori.Common;
+using Assets.Plugins.IceKori.Syntax.BaseType;
 using Assets.Plugins.IceKori.Syntax.Error;
 using Assets.Plugins.IceKori.Syntax.Expression;
 using UnityEngine;
 
 namespace Assets.Plugins.IceKori.Syntax.Std.Math
 {
+    [PageSlider, Serializable]
     public class Floor : BaseExpression
     {
         public BaseExpression Value;
