@@ -1,4 +1,4 @@
-﻿using Assets.Plugins.IceKori.Syntax.BaseType;
+using Assets.Plugins.IceKori.Syntax.BaseType;
 using Assets.Plugins.IceKori.Syntax.Error;
 using Assets.Plugins.IceKori.Syntax.Expression;
 using UnityEngine;
@@ -51,7 +51,7 @@ namespace Assets.Plugins.IceKori.Syntax.Std.Math
 
         public override string ToString()
         {
-            return $"Math.pow(${A}, ${B})";
+            return $"Math.min({A}, {B})";
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using Assets.Plugins.IceKori.Syntax.BaseType;
+using System;
+using Assets.Plugins.IceKori.Common;
+using Assets.Plugins.IceKori.Syntax.BaseType;
 using Assets.Plugins.IceKori.Syntax.Error;
 using Assets.Plugins.IceKori.Syntax.Expression;
 using UnityEngine;
@@ -35,7 +37,7 @@ namespace Assets.Plugins.IceKori.Syntax.Std.Math
 
         public override string ToString()
         {
-            return $"Math.floor({Value})";
+            return $"Math.abs({Value})";
         }
     }
 }
