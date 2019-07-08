@@ -1,8 +1,10 @@
 ﻿using System.Collections.Generic;
+using Assets.Plugins.IceKori.Common;
 using Assets.Plugins.IceKori.Syntax.BaseType;
 
 namespace Assets.Plugins.IceKori.Syntax.Statement
 {
+    [PageSlider]
     [System.Serializable]
     public class CommandCall : BaseStatement
     {
@@ -21,7 +23,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
 
         public override string ToString()
         {
-            return $"{Name}.call()";
+            return $"{Name}()";
         }
 
         public override object[] Reduce(Enviroment env, ErrorHandling errorHandling)

@@ -1,8 +1,10 @@
-﻿using Assets.Plugins.IceKori.Syntax.Expression;
+﻿using Assets.Plugins.IceKori.Common;
+using Assets.Plugins.IceKori.Syntax.Expression;
 using UnityEngine;
 
 namespace Assets.Plugins.IceKori.Syntax.Statement
 {
+    [PageSlider]
     [System.Serializable]
     public class Display : BaseStatement
     {

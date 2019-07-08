@@ -1,5 +1,8 @@
-﻿namespace Assets.Plugins.IceKori.Syntax.Statement
+﻿using Assets.Plugins.IceKori.Common;
+
+namespace Assets.Plugins.IceKori.Syntax.Statement
 {
+    [PageSlider]
     [System.Serializable]
     public class GlobalCommandCall : BaseStatement
     {
@@ -19,7 +22,7 @@
 
         public override string ToString()
         {
-            return $"{Name}.call()";
+            return $"{Name}()";
         }
 
         public override object[] Reduce(Enviroment env, ErrorHandling errorHandling)

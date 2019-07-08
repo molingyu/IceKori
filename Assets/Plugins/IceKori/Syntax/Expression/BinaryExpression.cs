@@ -1,10 +1,11 @@
 ﻿using System;
+using Assets.Plugins.IceKori.Common;
 using Assets.Plugins.IceKori.Syntax.BaseType;
 using Assets.Plugins.IceKori.Syntax.Error;
 
 namespace Assets.Plugins.IceKori.Syntax.Expression
 {
-    [System.Serializable]
+    [Serializable]
     public enum BinaryOperator
     {
         Add,
@@ -22,8 +23,8 @@ namespace Assets.Plugins.IceKori.Syntax.Expression
         And,
         Or
     }
-
-    [System.Serializable]
+    [PageSlider]
+    [Serializable]
     public class BinaryExpression : BaseExpression
     {
         private static float TOLERANCE = 0.0000001f;

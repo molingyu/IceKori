@@ -1,9 +1,11 @@
-﻿using Assets.Plugins.IceKori.Syntax.BaseType;
+﻿using Assets.Plugins.IceKori.Common;
+using Assets.Plugins.IceKori.Syntax.BaseType;
 using Assets.Plugins.IceKori.Syntax.Error;
 using Assets.Plugins.IceKori.Syntax.Expression;
 
 namespace Assets.Plugins.IceKori.Syntax.Statement
 {
+    [PageSlider]
     [System.Serializable]
     public class GlobalDefine : BaseStatement
     {

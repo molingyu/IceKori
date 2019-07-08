@@ -1,7 +1,9 @@
-﻿using Assets.Plugins.IceKori.Syntax.Error;
+﻿using Assets.Plugins.IceKori.Common;
+using Assets.Plugins.IceKori.Syntax.Error;
 
 namespace Assets.Plugins.IceKori.Syntax.Statement
 {
+    [PageSlider]
     [System.Serializable]
     public class Throw : BaseStatement
     {

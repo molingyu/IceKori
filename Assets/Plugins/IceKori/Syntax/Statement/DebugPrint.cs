@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+﻿using Assets.Plugins.IceKori.Common;
+using UnityEngine;
 
 namespace Assets.Plugins.IceKori.Syntax.Statement
 {
+    [PageSlider]
     [System.Serializable]
     public class DebugPrint : BaseStatement
     {
@@ -14,7 +16,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
 
         public override string ToString()
         {
-            return $"print({Object})";
+            return $"debugPrint({Object})";
         }
 
         public override object[] Reduce(Enviroment env, ErrorHandling errorHandling)

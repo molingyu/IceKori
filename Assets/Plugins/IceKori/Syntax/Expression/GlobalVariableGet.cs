@@ -1,7 +1,9 @@
 ﻿using Assets.Plugins.IceKori.Syntax.Error;
+using Assets.Plugins.IceKori.Common;
 
 namespace Assets.Plugins.IceKori.Syntax.Expression
 {
+    [PageSlider]
     [System.Serializable]
     public class GlobalVariableGet : BaseExpression
     {
