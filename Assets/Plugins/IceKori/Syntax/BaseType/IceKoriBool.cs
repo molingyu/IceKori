@@ -5,8 +5,8 @@ namespace Assets.Plugins.IceKori.Syntax.BaseType
     [System.Serializable]
     public class IceKoriBool : IceKoriBaseType
     {
-        public static IceKoriBool GetFalse => new IceKoriBool(false);
-        public static IceKoriBool GetTrue => new IceKoriBool(true);
+        public static IceKoriBool GetFalse => GetFalse ?? new IceKoriBool(false);
+        public static IceKoriBool GetTrue =>  GetTrue ?? new IceKoriBool(true);
 
         public bool Value;
         public IceKoriBool()

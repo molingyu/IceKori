@@ -39,7 +39,7 @@
 #### `IceKoriString`
 ![IceKoriString](../DocRes/IceKoriString.png)
 #### `IceKoriObject`
-> 用来封装 c3 的引用类型。
+> 用来封装 Unity 对象的引用类型。
 
 **`IceKoriSprite`** Unity Sprite 对象的封装。
 

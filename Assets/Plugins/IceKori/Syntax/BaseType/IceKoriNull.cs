@@ -2,7 +2,7 @@
 {
     public class IceKoriNull : IceKoriBaseType
     {
-        public static IceKoriNull GetNull => new IceKoriNull();
+        public static IceKoriNull GetNull => GetNull ?? new IceKoriNull();
 
         public IceKoriNull()
         {
