@@ -11,6 +11,7 @@ namespace Assets.Plugins.IceKori.Syntax.BaseType
         public static int Float = 3;
         public static int String = 4;
         public static int Object = 5;
+        public static int Array = 6;
 
         /// <summary>
         /// 对 IceKori 类型对象拆箱。
