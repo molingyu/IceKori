@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Plugins.IceKori.Syntax.Expression;
 
 namespace Assets.Plugins.IceKori.Syntax.BaseType
 {
+    [System.Serializable]
     public class IceKoriArray : IceKoriBaseType
     {
         public List<IceKoriBaseType> Value;
