@@ -6,7 +6,7 @@ namespace Assets.Plugins.IceKori.Syntax.Expression
     public abstract class BaseExpression : BaseNode
     {
         [HideInEditorMode]
-        public int ID = 16;
+        public int ID;
 
         /// <summary>
         /// 对表达式求值
