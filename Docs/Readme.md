@@ -85,5 +85,7 @@ IceKori µÄÊµÏÖÊÇÑÏ¸ñÒÀÕÕÐ¡²½ÓïÒåÀ´Ö´ÐÐµÄ¡£Èç¹ûÄãÏëÁË½â¸ü¶à¹ØÓÚ IceKori ½âÊÍÆ÷ÊÇÈ
 ## ·¶Àý
 + Gal-game story script
 
-## ¸½£ºÓï·¨ËµÃ÷
+## ¸½¢ñ£ºÓï·¨ËµÃ÷
 [Grammar](./Grammar.md)
+## ¸½¢ò£ºSTD
+[Grammar](./Std.md)
