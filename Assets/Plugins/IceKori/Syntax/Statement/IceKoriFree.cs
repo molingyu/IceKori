@@ -26,9 +26,9 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
 
         public override object[] Reduce(Enviroment env, ErrorHandling errorHandling)
         {
-            if (Value is VariableGet)
+            if (Value is VariableGet value)
             {
-                env.Variables.Remove(((VariableGet) Value).Name);
+                env.Variables.Remove(value.Name);
             }
             if (Value is GlobalVariableGet gvg)
             {
