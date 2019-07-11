@@ -1,7 +1,7 @@
 # IceKori
 A simple Unity-Inspector friendly visual programming language on Unity. Lightweight logical abstraction system for game story scripts.
 
-*Warning: IceKori depends on [Odin Inspector](http://sirenix.net/odininspector) plugin. Make sure you have a license for [Odin Inspector](http://sirenix.net/odininspector) before using IceKori.*
+*Warning: IceKori depends on [Odin Inspector](https://odininspector.com/) plugin. Make sure you have a license for [Odin Inspector](https://odininspector.com/) before using IceKori.*
 
 ## Installation
 + Download unitypackage from [Releases](https://github.com/molingyu/IceKori/releases) and import it.
