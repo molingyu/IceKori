@@ -51,7 +51,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
                     var context = condition ? Consequence : Alternative;
                     if (context.Count == 0)
                     {
-                        return new DoNothing();
+                        return DoNothing.GetValue;
                     }
                     env.VariablesStack.Push(new Dictionary<string, IceKoriBaseType>());
                     context.Add(new EvalCallback((enviroment, handling) => enviroment.VariablesStack.Pop()));

@@ -31,7 +31,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
             var statement = _Pretreatment(Body, () => new Display(Body.Reduce(env)), () =>
             {
                 Debug.Log(Body);
-                return new DoNothing();
+                return DoNothing.GetValue;
             });
             return new object[] { statement, env, errorHandling };
         }

@@ -36,7 +36,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
                 if (!env.Variables.ContainsKey(Name))
                     return new Throw(new TypeError($"Identifier \"{Name}\" does not defined"));
                 env.Variables[Name] = (IceKoriBaseType)Value;
-                return new DoNothing();
+                return DoNothing.GetValue;
             });
             return new object[] { statement, env, errorHandling };
         }

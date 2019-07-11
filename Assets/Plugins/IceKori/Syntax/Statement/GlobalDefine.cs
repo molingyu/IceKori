@@ -36,7 +36,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
                 if (env.GlobalVariables.ContainsKey(Name))
                     return new Throw(new TypeError($"Global identifier \"{Name}\" has already been declared"));
                 env.GlobalVariables.Add(Name, (IceKoriBaseType)Value);
-                return new DoNothing();
+                return DoNothing.GetValue;
             });
             return new object[] { statement, env, errorHandling };
         }

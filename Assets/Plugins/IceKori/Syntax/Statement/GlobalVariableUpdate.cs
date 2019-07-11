@@ -36,7 +36,7 @@ namespace Assets.Plugins.IceKori.Syntax.Statement
                 if (!env.GlobalVariables.ContainsKey(Name))
                     return new Throw(new TypeError($"Global identifier \"{Name}\" does not defined"));
                 env.GlobalVariables[Name] = (IceKoriBaseType)Value;
-                return new DoNothing();
+                return DoNothing.GetValue;
             });
             return new object[] { statement, env, errorHandling };
         }

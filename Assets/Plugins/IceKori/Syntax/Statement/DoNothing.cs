@@ -2,6 +2,7 @@
 {
     public class DoNothing : BaseStatement
     {
+        public static DoNothing GetValue =>  GetValue ?? new DoNothing();
         public DoNothing()
         {
             Reducible = false;

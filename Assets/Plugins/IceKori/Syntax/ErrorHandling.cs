@@ -35,7 +35,7 @@ namespace Assets.Plugins.IceKori.Syntax
             {
                 Debug.LogWarning(error);
                 env.Interpreter.State = InterpreterState.End;
-                return new DoNothing();
+                return DoNothing.GetValue;
             }
             else
             {
